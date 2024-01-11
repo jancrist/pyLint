@@ -19,8 +19,7 @@ El archivo **constructor.py** es esencial para la configuración personalizada d
 ### Uso de Constructor.py
 
 1. Define requisitos y estructuras en el archivo constructor.py.
-2. Mapea los requisitos con los códigos de Pylint.
-3. Crea el archivo .pylintrc con los códigos y requisitos definidos.
+2. Mapea los requisitos puestos en el constructor, con los códigos de Pylint (mediante un json incluido).
 4. Genera un nuevo archivo .pylintrc asociado a las necesidades especificadas.
 
 Para ejecutar este archivo, utiliza el siguiente comando en la consola:
@@ -59,3 +58,6 @@ Hasta el momento, las personalizaciones admitidas incluyen:
 - DOCSTRING_OBLIGATORIO
 - DESCRIPCION_FUNCIONES
 ```
+
+COMMIT 1/11/2023
+JAN
