@@ -13,7 +13,7 @@ aspectos que podrían afectar la calidad y mantenibilidad del código.
 
 
 
-### - &#9679 El archivo **CONSTRUCTOR.PY** es el encargado de elaborar un arhivo .pylintrc  . Desde el se pueden definir ciertas notificaciones como:
+### \u25cf El archivo **CONSTRUCTOR.PY** es el encargado de elaborar un arhivo .pylintrc  . Desde el se pueden definir ciertas notificaciones como:
 ##### Definir un formato de nombre y notificar cuando este no se cumpla, obligar a establecer un  Docstring en cada archivo, notificar de importaciones, variables o pass no utilizados.
 
 #### - invalid-name (tipo de nombres, snake_case, UPPER_CASE) formato de nombre no admitido. 
