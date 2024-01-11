@@ -1,0 +1,15 @@
+{
+    "IMPORTACION_NO_UTILIZADA":"W0611,",
+     "VARIABLE_NO_UTILIZADA":"W0612,",
+     "METODO_NO_UTILIZADO":"W0613,",
+     "LINEA_DEMASIADO_LARGA":"C0301,",
+   "ESPACIOS_EN_BLANCO_NO_PERMITIDOS": "C0326,", 
+    "FIRMA_FUNCION_INCORRECTA": "C0116,",
+    "PASS_NO_UTILIZADO":"W0107,",
+    "DOCSTRING_OBLIGATORIO" :"C0114," ,
+    "DESCRIPCION_FUNCIONES":"missing-module-docstring,",
+    "snake_case":"_",
+    "camelCase":"i, j, k, ex, Run, _",
+    "UPPER_CASE":"ALL_CAPS"
+   
+}
