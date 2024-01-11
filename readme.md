@@ -6,6 +6,14 @@ Pylint es una herramienta poderosa diseñada para detectar posibles errores, ano
 
 ![Diagrama de Ejecución](draw.png)
 
+## Directorio:
+  - constructor.py (archivo donde configuramos las necesidades)
+  - map.json (json incluido con codigos para mapear necesidades de constructor con la biblioteca de pyLint)
+  - custom.pylintrc (Generado mediante constructor.py)
+
+
+
+
 ### Constructor.py - Configuración Personalizada
 
 El archivo **constructor.py** es esencial para la configuración personalizada de Pylint. Desde este archivo, puedes definir notificaciones específicas, tales como:
