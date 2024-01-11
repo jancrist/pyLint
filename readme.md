@@ -6,6 +6,8 @@ Pylint es una herramienta poderosa diseñada para detectar posibles errores, ano
 
 ![Diagrama de Ejecución](draw.png)
 
+---
+
 ## Directorio:
 ### **-- constructor.py**   
 (archivo donde configuramos las necesidades)
@@ -16,7 +18,7 @@ Pylint es una herramienta poderosa diseñada para detectar posibles errores, ano
 ### **-- custom.pylintrc** 
 (Generado mediante constructor.py)
 
-
+---
 
 
 ### Constructor.py - Configuración Personalizada
@@ -28,7 +30,7 @@ El archivo **constructor.py** es esencial para la configuración personalizada d
 - **Unused-Import:** Advierte sobre importaciones no utilizadas en los archivos.
 - **Unused Constant:** Identifica variables no utilizadas en los archivos.
 - **unnecessary-pass:** Señala el uso de la declaración "pass" sin funcionalidad aparente.
-
+---
 ### Uso de Constructor.py
 
 1. Define requisitos y estructuras en el archivo constructor.py.
@@ -40,7 +42,7 @@ Para ejecutar este archivo, utiliza el siguiente comando en la consola:
 ```bash
 python constructor.py
 ```
-
+---
 ### Ejecución de Pylint
 Una vez obtenido el archivo .pylintrc personalizado, ejecútalo asociándolo con el nombre del archivo a analizar. Por ejemplo:
 ```bash
@@ -57,7 +59,7 @@ W0611: Unused numpy imported as np (unused-import)
 ```
 ------------------------------------------------------------------
 Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
-
+---
 ### Personalizaciones Admitidas
 Hasta el momento, las personalizaciones admitidas incluyen:
 ```
@@ -71,6 +73,6 @@ Hasta el momento, las personalizaciones admitidas incluyen:
 - DOCSTRING_OBLIGATORIO
 - DESCRIPCION_FUNCIONES
 ```
-
+---
 COMMIT 1/11/2023
 JAN
