@@ -1,1 +1,1 @@
-![Texto Alternativo](example.png)
+![Texto Alternativo](pyLint.drawio.png)
