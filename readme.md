@@ -9,3 +9,23 @@ aspectos que podrían afectar la calidad y mantenibilidad del código.
 ## Diagrama de ejecucion
 
 ![Texto Alternativo](draw.png)
+
+
+
+
+### El archivo **CONSTRUCTOR.PY** es el encargado de elaborar un arhivo .pylintrc  . Desde el se pueden definir ciertas notificaciones como:
+##### Definir un formato de nombre y notificar cuando este no se cumpla, obligar a establecer un  Docstring en cada archivo, notificar de importaciones, variables o pass no utilizados.
+
+#### - invalid-name (tipo de nombres, snake_case, UPPER_CASE) formato de nombre no admitido. 
+
+#### - Docstring (descripcion de archivo) faltante en los archivos.
+
+#### - Function Docstring (descripcion de funcion) faltante en las funciones.
+
+#### - Unused-Import (Importacion no utilizada) en los archivos.
+
+#### - Unused Constant ( Variable no utilizada) en los archivos.
+
+#### - unnecessary-pass (Pass sin funcion) en los archivos.
+
+
